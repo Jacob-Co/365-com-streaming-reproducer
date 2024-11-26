@@ -20,6 +20,9 @@
 2. Install the COM add-in by running `Install.bat` as admin
 3. Open a new Excel file
 4. Type in Cell A1 `=TESTRTD(1,2)`, check that it is streaming this value ex. `COM: #` (ex: `COM: 6`)
+    - note that if the result it `#VALUE`:
+      - make sure that you ran `Install.bat` as admin
+      - close Excel and try opening it again
 5. Close without saving
 
 ### Last we reproduce the bug by opening `streaming-ojs`
